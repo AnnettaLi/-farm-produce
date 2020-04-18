@@ -30,7 +30,7 @@
             <el-table-column prop="addressId" label="地址ID"> </el-table-column>
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
-                  <a href=""  @click.prevent = "">详情</a>
+                  <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>
@@ -48,7 +48,7 @@
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
                  <a href=""  @click.prevent = "pdHandler(record.row.id)">派单</a>
-                 <a href=""  @click.prevent = "">详情</a>
+                 <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>
@@ -66,7 +66,7 @@
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
                   <a href=""  @click.prevent = "qxHandler(record.row.id)">取消派单</a>
-                  <a href=""  @click.prevent = "">详情</a>
+                  <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>
@@ -83,7 +83,7 @@
             <el-table-column prop="addressId" label="地址ID"> </el-table-column>
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
-                  <a href=""  @click.prevent = "">详情</a>
+                  <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>
@@ -100,7 +100,7 @@
             <el-table-column prop="addressId" label="地址ID"> </el-table-column>
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
-                  <a href=""  @click.prevent = "">详情</a>
+                  <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>
@@ -117,7 +117,7 @@
             <el-table-column prop="addressId" label="地址ID"> </el-table-column>
             <el-table-column label="操作" width="100px" align="center">
                 <template #default="record">
-                  <a href=""  @click.prevent = "">详情</a>
+                  <a href=""  @click.prevent = "toDetails(record.row)">详情</a>
                 </template>
             </el-table-column>
           </el-table>

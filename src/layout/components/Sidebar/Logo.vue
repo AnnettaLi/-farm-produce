@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      title: '云边小卖铺',
+      title: '山野人家农产品店',
       logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
     }
   }

@@ -13,7 +13,7 @@
         </p> 
     </div>
     <br>
-    {{order}}
+    <!-- {{order}} -->
     <!-- <div class="waiter">
         <p> <strong>员工id:</strong> {{order.waiter.id}} </p> 
         <p> <strong>员工电话:</strong> {{order.waiter.telephone}} </p> 
